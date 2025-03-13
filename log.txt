@@ -1,0 +1,52 @@
+    1  git config --global user.name "Diogo Cabral"
+    2  git config --global user.email "dyogo199818@gmail.com"
+    3  git config --list
+    4  exit
+    5  git clone https://github.com/Diogo/NomeDoRepositorio.git
+    6  git clone https://github.com/Diogo/Linf.git
+    7  git clone https://github.com/Diogo/Linf.git
+    8  cd linf
+    9  echo "Hello GitHub!" > arquivo.txt
+   10  git add arquivo.txt
+   11  git commit -m "Adicionando um novo arquivo"
+   12  git push origin main
+   13  git oush -u origin main
+   14  git push origin main
+   15  git config --list
+   16  mkdir git-exercicio_avaliado
+   17  cd git-exercicio_avaliado
+   18  git init
+   19  touch log.txt
+   20  git add log.txt
+   21  git commit -m "Add log.txt"
+   22  git remote add origin https://github.com/Diocabral/git-exercicio_avaliado.git
+   23  git clone https://github.com/Diocabral/git-exercicio_avaliado.git
+   24  cd git-treino
+   25  cd git-exercicio_avaliado
+   26  echo "git config --global user.name "DioCabral"
+   27  git config --global user.email "dyogo199818@gmail.com" "
+   28  echo "git config --global user.name "DioCabral"
+   29  git config --global user.email "dyogo199818@gmail.com" " >> log.txt
+   30  git commit -m "updt log.txt"
+   31  git add log.txt
+   32  git commit -m "updt log.txt"
+   33  git push origin main
+   34  git checkout -b nova-feature
+   35  echo "Alteração na nova-feature" >> log.txt
+   36  git add log.txt
+   37  git commit -m "Alteração na nova-feature"
+   38  git push origin nova-feature
+   39  git checkout main
+   40  git pull origin main
+   41  git checkout -b novo-branch
+   42  git add log.txt
+   43  git commit -m "aletraçoes no log no novo branch"
+   44  git checkout main
+   45  git add log.txt
+   46  git commit -m "Alterações no log.txt no main"
+   47  git checkout novo-branch
+   48  git merge main
+   49  git add log.txt
+   50  git commit -m "Resolvendo conflitos"
+   51  git push origin novo-branch
+Comandos Usados
