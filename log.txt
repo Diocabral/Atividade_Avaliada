@@ -50,3 +50,4 @@
    50  git commit -m "Resolvendo conflitos"
    51  git push origin novo-branch
 Comandos Usados
+Alteração no branch nova-feature
